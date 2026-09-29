@@ -13,24 +13,24 @@ class Nebli < Formula
   on_macos do
     on_arm do
       url "https://downloads.nebli.ai/cli/versions/v#{version}/nebli-darwin-arm64.tar.gz"
-      sha256 "59007b0a3accf13aaeecce68eb730b528c42943db580a1a07057ded0141f0da7"
+      sha256 "55b6ff15ba68a550f32ff33ad22b046a98cf93f7b77f934cca7ab35a4f319311"
     end
 
     on_intel do
       url "https://downloads.nebli.ai/cli/versions/v#{version}/nebli-darwin-amd64.tar.gz"
-      sha256 "bfbe8c394b8cdcb33f1346d5f4611e1eeef4b6b41c400b28db49abc4cfe2bf4d"
+      sha256 "b891eba708df4a022bc3c314bdf46c54420f4dc7b7b90916dcfea0108c96d333"
     end
   end
 
   on_linux do
     on_intel do
       url "https://downloads.nebli.ai/cli/versions/v#{version}/nebli-linux-amd64.tar.gz"
-      sha256 "10d2f80558a12b46bca0a9da0bbaa56a06cdf2c2d131ba504404fd9d2b68c737"
+      sha256 "dc228006b3b9a8f6133d0ebea1567b858133672bf6597a05f763446b4a66db4e"
     end
 
     on_arm do
       url "https://downloads.nebli.ai/cli/versions/v#{version}/nebli-linux-arm64.tar.gz"
-      sha256 "8e4e0724463c50facdd4ef64e241060d16d03020bc4bd3f29b48211d1da44296"
+      sha256 "1ab9370370907c78de986d404a2a819b29ef11bdf7dad523f804b38345b0a2d1"
     end
   end
 
