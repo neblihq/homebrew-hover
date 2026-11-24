@@ -8,7 +8,7 @@
 class Nebli < Formula
   desc "Drone relay CLI for Nebli"
   homepage "https://nebli.ai"
-  version "1.3.0"
+  version "1.3.1"
 
   on_macos do
     # The darwin binaries need macOS 14 (their minos): brew stops on an older
@@ -17,24 +17,24 @@ class Nebli < Formula
 
     on_arm do
       url "https://downloads.nebli.ai/cli/versions/v#{version}/nebli-darwin-arm64.tar.gz"
-      sha256 "4bf927d84e68115e22679be587b25dfaf5085668c2b9da44f3819c3e4d98ddd8"
+      sha256 "110a6c1c530a63a3559ffaeb03632b1bf5400c8098531e2efd329b2a6554be5d"
     end
 
     on_intel do
       url "https://downloads.nebli.ai/cli/versions/v#{version}/nebli-darwin-amd64.tar.gz"
-      sha256 "a6dce877bb7d69238b744e8fa85968ab015d7d6365ea095ad12675ad1016df48"
+      sha256 "d6fe3d46f8e271c2add1b5dfb20234e1d96f6ba16c438502fbafa8ab1f8bda35"
     end
   end
 
   on_linux do
     on_intel do
       url "https://downloads.nebli.ai/cli/versions/v#{version}/nebli-linux-amd64.tar.gz"
-      sha256 "1bb6fd414a43a10b60c7bd04cf1dd1f820d8c2b5c8389cce1c15edf4a67d9c19"
+      sha256 "fd120a39c3dbd0e22b5342c32f21449e12d04820d02526c59f26e4a66a9fa283"
     end
 
     on_arm do
       url "https://downloads.nebli.ai/cli/versions/v#{version}/nebli-linux-arm64.tar.gz"
-      sha256 "aef973e8b3b535d66b000f98a626472f035c5d4b841d9560d30042ee2e339ddf"
+      sha256 "78f5f246e49f02d0d072a90eaa6abbbbf464819ad860dea48e5803d1985f6daf"
     end
   end
 
